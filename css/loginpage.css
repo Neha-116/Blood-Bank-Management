@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://image.freepik.com/free-photo/hands-holding-red-heart-with-stethoscope-heart-health-health-insurance-concept_49149-192.jpg');
+    background-position: center center;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.text-center {
+    padding: 0 0 5% 0;
+}
+
+.text-muted {
+    font-family: sans-serif;
+    color:white;
+    padding-top: 5%;
+}
+

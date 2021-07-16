@@ -1,0 +1,120 @@
+body{
+    background-color: wheat;
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+}
+
+.container-fluid
+{
+  padding: 7% 15%;
+}
+
+/*SECTIONS*/
+
+#title {
+    background-color: #b10909;
+    color: #fff;
+  }
+
+/*NAVIGATION BAR*/
+.navbar {
+    padding: 0 0 4.5rem;
+  }
+
+  .navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  }
+  
+  
+  .nav-item {
+    padding: 0 30px;
+  }
+  
+  
+  .nav-link {
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  
+  /*TITLE SECTION*/
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+  }
+
+  /*TITLE IMAGE*/
+  
+  .title-image
+  {
+    width: 40%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    padding : 10% 0 10% 0;
+  }
+
+  @media (max-width: 1028px) {
+
+    #title{
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+  img.rounded-corners {
+    border-radius: 100%;
+  }
+
+  /*ADMIN_BUTTON*/
+#admin
+{
+  position: relative;
+  padding: 7% 15%;
+}
+
+.admin-box {
+    padding: 5%;
+}
+
+.features-heading {
+    font-size: 1.5rem;
+}
+
+/*ABOUT*/
+
+.testimonial-text{
+  padding: 0 15% 0 15%;
+}
+
+#testimonials {
+  background-color: rgb(22, 19, 19);
+  color: #fff;
+  /* height: 400px; */
+  /* text-align: center; */
+}
+
+.testimonial-image {
+  width: 20%;
+    margin : 20px;
+  }
+  
+/*FOOTER SECTION*/
+
+.fotter-icon {
+   color:  #cd0a0a;
+    text-decoration: none;
+    background-color: transparent;
+    margin: 20px 10px;
+}
+
+.copyright {
+  color: gray;
+}

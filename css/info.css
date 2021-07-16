@@ -1,0 +1,127 @@
+body{
+    
+}
+
+#title {
+    background-color: #b10909;
+    color: #fff; 
+  }
+
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    }
+
+    .nav-item {
+        padding: 0 30px;
+      }
+
+      .nav-link {
+        font-family: 'Roboto Slab', serif;
+      }
+      
+.cont{
+    padding-top: 40px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.card-body {
+    background-color: rgb(66, 62, 62);
+    color: wheat;   
+}
+
+.card ,nav, .footer,tr,video{
+    border-radius: 3px;
+    transition: all 200ms ease-out;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+}
+
+tr,th,td{
+    border:0.1px solid silver;
+    text-align: center;
+}
+
+.nav-item{
+margin-left: 10px; 
+}
+
+.navbar-brand{
+    text-shadow: 1px 1px 2px red, 0 0 50px black, 0 0 5px white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.brand{
+    text-shadow: 1px 1px 2px red, 0 0 50px black, 0 0 5px white;
+}
+
+.rounded-circle{
+    margin-top: -2.5px;
+}
+
+.card-header{
+    font-weight: bolder;
+    font-size: 1.5em;
+    font-family: 'Noto Serif', serif;
+}
+
+.dark-mode {
+  background-color: black;
+  color: black;
+}
+
+.header {
+    color: #dddddd;
+    font-size: 1.3em;
+    font-family: 'Roboto Slab', serif;
+}
+
+form{
+    padding-top: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+/* .footer{
+    padding: 14px;
+} */
+
+.alert{
+    border:1px solid #5cb85c;
+    border-left: 5px solid #5cb85c;
+    border-right: 5px solid #5cb85c;
+}
+
+.error{
+    border:1px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+}
+
+/*FOOTER SECTION*/
+
+.fotter-icon {
+    color:  #cd0a0a;
+     text-decoration: none;
+     background-color: transparent;
+     margin: 20px 10px;
+ }
+
+ .copyright {
+    color: gray;
+  }
